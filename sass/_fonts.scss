@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: 
+  url('OpenSans-Regular.woff') format('woff'),
+  url('OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: 
+  url('OpenSans-SemiBold.woff') format('woff'),
+  url('OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: 'Istok Web';
+  src:
+  url('IstokWeb-Regular.woff') format('woff'),
+  url('IstokWeb-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: 'Istok Web';
+  src: 
+  url('IstokWeb-Bold.woff') format('woff'),
+  url('IstokWeb-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  }
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src:
+  url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: 
+  url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+  url('../fonts/MyriadPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}  

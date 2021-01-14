@@ -1,0 +1,55 @@
+.header
+  padding-top: 87px
+  margin-bottom: 42px
+.menu
+  display: flex
+  justify-content: space-between
+  align-items: center
+.logo
+  &__img
+    width: 60px
+    height: 60px
+    margin-right: 17px
+    vertical-align: middle
+  &__text
+    display: inline-block
+    vertical-align: middle
+    color: $light
+    font-family: 'Open Sans', sans-serif
+    font-size: 16px
+    font-weight: normal
+    line-height: 1.3
+    margin: 0
+    span
+      font-family: 'Istok Web', sans-serif
+      font-size: 34px
+      font-weight: bold
+      color: $white
+.nav
+  &__item
+    color: $light
+    text-decoration: none
+    display: inline-block
+    font-family: 'Open Sans', sans-serif
+    font-size: 16px
+    font-weight: bold
+    line-height: 1.35
+    margin-top: 15px
+    margin-right: 57px
+    &:last-child
+      margin-right: 0
+    &::after
+      content: ''
+      display: block
+      height: 2px
+      background-color: $white
+      transition: 0.3s
+      width: 0%
+      margin: auto
+      margin-top: 15px
+    &:hover
+      color: $white
+      &:after
+        width: 100%
+
+

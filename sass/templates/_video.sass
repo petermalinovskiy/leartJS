@@ -1,0 +1,105 @@
+.video
+  //background-color: $grey
+  margin-top: -300px
+  padding-bottom: 222px
+  &__description
+    font-family: 'Open Sans', sans-serif
+    font-size: 24px
+    font-weight: bold
+    color:  #000000
+    min-width: 275px
+    margin: 0
+    margin-bottom: 100px
+    span
+      color: $orange
+  &__show-all
+    font-size: 16px
+    margin-bottom: 16px
+.player
+  &__wrap
+    min-height: 506px
+    margin-bottom: 143px
+  &__card
+    background: url('../img/main-video-cover.png') no-repeat center / contain
+    display: flex
+    max-width: 1000px
+    min-height: 506px
+    margin: auto
+  &__icon
+    margin: auto
+    padding: 18px
+    width: 54px
+    height: 54px
+    border-radius: 45px
+    border: 1px solid #ffffff
+  &__title
+    margin-top: -415px
+    font-family: 'Istok Web', sans-serif
+    font-size: 36px
+    font-weight: normal
+    color: $white
+    margin-bottom: 20px
+  &__subtitle
+    font-family: 'Open Sans', sans-serif
+    font-size: 14px
+    font-weight: normal
+    color: $white
+.show-all
+  &__text
+    margin-bottom: 19px
+    vertical-align: middle
+  &__img
+    vertical-align: middle
+
+.slider
+  &-video
+    display: flex
+    max-width: 306px
+    min-height: 172px
+    margin: 0 27px 26px 27px
+    margin-bottom: 26px
+    &-1
+      background: $grey url('../img/video-slider-1.jpg') no-repeat center / cover
+    &-2
+      background: $grey url('../img/video-slider-2.jpg') no-repeat center / cover
+    &-3
+      background: $grey url('../img/video-slider-3.jpg') no-repeat center / cover
+    &-4
+      background: $grey url('../img/video-slider-4.jpg') no-repeat center / cover
+  &-play
+    margin: auto    
+  &-title  
+    margin: 0 27px
+    min-width: 37px 
+    font-family: 'Open Sans', sans-serif
+    font-size: 14px
+    font-weight: normal  
+    color: #444444
+.swiper-button
+  &-prev, &-next
+    z-index: 5
+    width: 54px
+    height: 54px
+    top: 35%
+    &:after
+      display: none
+  &-prev    
+    background: url('../img/video-arrow-left.svg') no-repeat center
+    left: 0  
+  &-next
+    background: url('../img/video-arrow-right.svg') no-repeat center 
+    right: 0
+    
+.row
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  min-height: 230px
+  .col-30
+    flex-basis: 30%
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    &__wrap
+  .col-70
+    width: 70%
